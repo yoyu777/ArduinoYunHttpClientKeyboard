@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+</head>
+
+<body ng-app="starter">
+
+    <ion-pane>
+        <ion-header-bar class="bar-stable">
+            <h1 class="title">Ionic Blank Starter</h1>
+
+
+
+        </ion-header-bar>
+        <ion-content>
+            <button class="button button-full button-calm" ng-controller="button as b1" ng-click="b1.click(200)">200</button>
+            <button class="button button-full button-balanced" ng-controller="button as b2" ng-click="b2.click(300)">300</button>
+
+            <button class="button button-full button-energized" ng-controller="button as b3" ng-click="b3.click(400)">400</button>
+
+            <button class="button button-full button-royal" ng-controller="button as b4" ng-click="b4.click(500)">500</button>
+
+            <button class="button button-full button-positive" ng-controller="button as b5" ng-click="b5.click(600)">600</button>
+        </ion-content>
+    </ion-pane>
+</body>
+
+</html>
