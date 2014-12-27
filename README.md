@@ -1,6 +1,6 @@
 #ArduinoYunHttpClientKeyboard
 
-Make http calls from ArduinoYun. Served by Nodejs. Allow remote control from an angular-js application.
+Make http (GET/POST) calls from ArduinoYun. Served by Nodejs. Allow remote control from another angular-js application.
 
 ###Arduino source file:
 HttpClientKeyboard.ino
